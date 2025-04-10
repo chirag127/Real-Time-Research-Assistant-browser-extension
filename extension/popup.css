@@ -1,0 +1,65 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #4caf50;
+  --hover-color: #66bb6a;
+  --secondary-color: #1e1e1e;
+  --font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 300px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: var(--hover-color);
+}
+
+h2 {
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: var(--secondary-color);
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: var(--hover-color);
+}

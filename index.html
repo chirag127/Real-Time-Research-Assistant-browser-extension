@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Real-Time Research Assistant</title>
+<style>
+:root {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #4caf50;
+  --secondary-color: #1e1e1e;
+  --hover-color: #66bb6a;
+  --font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 64px;
+  height: 64px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+.tagline {
+  font-size: 1.1em;
+  color: var(--hover-color);
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+button {
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  border: 1px solid var(--hover-color);
+}
+
+footer {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+a {
+  color: var(--hover-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="extension/icons/icon128.png" alt="Extension Logo" />
+  <h1>Real-Time Research Assistant</h1>
+  <p class="tagline">Accelerate your research with AI-powered insights</p>
+  <div class="buttons">
+    <a href="https://github.com/chirag127/Real-Time-Research-Assistant-browser-extension" target="_blank"><button>GitHub Repo</button></a>
+    <a href="privacy-policy.html" target="_blank"><button>Privacy Policy</button></a>
+  </div>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>The Real-Time Research Assistant browser extension streamlines your online research by detecting topics as you browse, suggesting relevant articles, and providing concise summaries. Save time and focus on what matters most—your research.</p>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <div class="features-grid">
+    <div class="feature"><h3>Topic Detection</h3><p>Automatically identifies research topics from your browsing content.</p></div>
+    <div class="feature"><h3>Content Suggestions</h3><p>Recommends relevant articles, papers, and reports in real-time.</p></div>
+    <div class="feature"><h3>Summarization</h3><p>Provides AI-generated summaries to quickly grasp key points.</p></div>
+    <div class="feature"><h3>Save Information</h3><p>Save articles, quotes, and key points for later reference.</p></div>
+    <div class="feature"><h3>Customization</h3><p>Personalize content preferences and research areas.</p></div>
+    <div class="feature"><h3>Cross-Browser Support</h3><p>Works seamlessly on Chrome, Edge, and Firefox.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Installation</h2>
+  <ol>
+    <li>Download or clone the repository from GitHub.</li>
+    <li>Open your browser's Extensions page.</li>
+    <li>Enable Developer Mode.</li>
+    <li>Click "Load unpacked" and select the <code>extension/</code> folder.</li>
+    <li>Enjoy enhanced research capabilities!</li>
+  </ol>
+</section>
+
+<section>
+  <h2>How to Use</h2>
+  <p>While browsing, the extension will detect topics and suggest relevant content. Access summaries and save important information directly from the extension popup.</p>
+</section>
+
+<section>
+  <h2>Technology Stack</h2>
+  <ul>
+    <li>JavaScript, HTML, CSS</li>
+    <li>Chrome Extension APIs (Manifest V3)</li>
+    <li>Express.js Backend</li>
+    <li>Gemini 2.0 Flash Lite AI Model</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Chirag Singhal. All rights reserved.</p>
+  <p><a href="privacy-policy.html" target="_blank">Privacy Policy</a> | <a href="https://github.com/chirag127/Real-Time-Research-Assistant-browser-extension" target="_blank">GitHub</a></p>
+</footer>
+
+</body>
+</html>
